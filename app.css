@@ -1,0 +1,43 @@
+.clear {
+    background-image: url(images/closeup-photo-of-sunflowers-1234064.jpg);
+}
+.cloud{
+    background-image: url(images/grey-white-clouds-158163.jpg);
+
+}
+.rain{
+    background-image: url(images/white-and-black-3d-wallpaper-850488.jpg);
+}
+
+.snow{
+    background-image: url(images/white-snowy-environment-with-pine-trees-773953.jpg);
+}
+
+body{
+ 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+   
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+       
+   
+}
+
+h1{
+    font-size: 3em;
+}
+i.wi{
+    font-size: 5em;
+    line-height: 3em;
+}
+h2{
+    font-size: 2em;
+}
+.tooltip{
+    display: none;
+}
+
