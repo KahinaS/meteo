@@ -12,19 +12,20 @@ function capitalize(str) {
 }
 
 function main() {
-    fetch(`https://api.ipify.org?format=json`)
-        .then(resultat => resultat.json())
-        .then(json => {
-            const ip = json.ip;
+    fetch(`https://api.ipify.org/?format=json`)
+        .then(resultat => resultat.json)
+         .then(json => {  
+             const ip = json.ip;
 
             fetch(`http://freegeoip.net/json/` + ip)
                 .then(resultat => resultat.json())
-                .then(json => {
-                    const ville =json.city;
+                 .then(json => {
+                   const ville =json.city;
                     console.log(json.ip);
-                    // fetch(`http://api.openweathermap.org/data/2.5/weather?q=${ville}&appid=8e602b9ea28ed4f9f8fc97a5f6d1105c&lang=fr&units=metric`)
-                })
+                     fetch(`api.openweathermap.org/data/2.5/weather?q=Marseille,uk&APPID=5be9ccfb7b1fe8b088c2e491db8a1535`)
+                 })
 
-        })
+         })
     
 }
+main();
