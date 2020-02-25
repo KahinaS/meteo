@@ -21,9 +21,11 @@ body{
     align-items: center;
     text-align: center;
     overflow: hidden;
-   
+    color: #ffff;
+   text-shadow: 1px 1px 1px rgba( 0,0,0,0.5);
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
-       
+       background-position: center;
+       background-size : cover;
    
 }
 
@@ -36,8 +38,22 @@ i.wi{
 }
 h2{
     font-size: 2em;
+    position: relative;
 }
 .tooltip{
-    display: none;
-}
+    opacity: 0;
+    position: absolute;
+    top : 0px;
+    left : 10px;
+    color : #ffff;
+    background-color : rgb(143, 138, 138);
+    border-radius : 5px;
+    padding : 10px;
+    font-size : 12px;
+    transition : opacity .3s, top .5s;
 
+}
+h1:hover .tooltip {
+    top:-30ox;
+    opacity: 1;
+}
