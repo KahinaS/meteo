@@ -1,7 +1,7 @@
 .clear {
     background-image: url(images/closeup-photo-of-sunflowers-1234064.jpg);
 }
-.cloud{
+.clouds{
     background-image: url(images/grey-white-clouds-158163.jpg);
 
 }
@@ -11,6 +11,12 @@
 
 .snow{
     background-image: url(images/white-snowy-environment-with-pine-trees-773953.jpg);
+}
+.solar {
+    background-image: url(images/astronomy-circle-dark-eclipse-580679.jpg);
+}
+.dust {
+    background-image: ;
 }
 
 body{
@@ -31,6 +37,7 @@ body{
 
 h1{
     font-size: 3em;
+    opacity: 1;
 }
 i.wi{
     font-size: 5em;
@@ -46,7 +53,7 @@ h2{
     top : 0px;
     left : 10px;
     color : #ffff;
-    background-color : rgb(143, 138, 138);
+    background-color : rgb(126, 125, 125);
     border-radius : 5px;
     padding : 10px;
     font-size : 12px;
@@ -54,6 +61,6 @@ h2{
 
 }
 h1:hover .tooltip {
-    top:-30ox;
-    opacity: 1;
+    top:-30px;
+    opacity: 2;
 }
